@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('.filters li').click(function(){
+	$('.filters').children().click(function(){
 		var this_item = $(this).data('item');
 		$(this).addClass('active'); // Add active class to menu item
 		$(this).siblings().removeClass('active'); // Remove active class to menu siblings
